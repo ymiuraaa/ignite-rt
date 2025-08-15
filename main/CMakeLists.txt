@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+    INCLUDE_DIRS 
+        "."
+    REQUIRES 
+        icm20948
+        websockets
+        esp_wifi
+        nvs_flash
+)

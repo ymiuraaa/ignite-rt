@@ -1,0 +1,5 @@
+.env
+build
+.env
+components/websockets/Kconfig.projbuild:
+components/websockets/secrets.h
